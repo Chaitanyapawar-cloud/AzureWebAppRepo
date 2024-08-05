@@ -12,7 +12,7 @@ public class demoController {
 	
 	@GetMapping("/getMsg")
 	public ResponseEntity<String> getMsg(){
-		ResponseEntity<String> resp = new ResponseEntity<>("Hello, I am Chaitanya ", HttpStatus.OK);
+		ResponseEntity<String> resp = new ResponseEntity<>("Hello, Welcome to MindfulTechs", HttpStatus.OK);
 		return resp;
 	}
 
